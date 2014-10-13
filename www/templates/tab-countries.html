@@ -1,0 +1,9 @@
+<ion-view title="Countries">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="country in countries" type="item-text-wrap" href="#/tab/country/{{country.id}}">
+        {{country.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
